@@ -8,6 +8,7 @@ import React from "react";
 import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 import PostsPage from "../PostsContainer/PostsPage"; 
+import SearchBar from "../SearchBar/SearchBarContainer"; 
 
 
 const App = () => {
