@@ -24,3 +24,15 @@
   color: black;
   font-weight: bold;
 }
+
+.time-stamp-container {
+  text-align: left;
+  padding: 2px;
+  margin-left: 4px;
+}
+
+.time-stamp{
+  font-size: 10px;
+  margin-left: 5px;
+  color: black;
+}
