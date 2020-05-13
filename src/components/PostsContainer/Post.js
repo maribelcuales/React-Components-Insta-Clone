@@ -10,6 +10,7 @@ import "./Posts.css";
 const Post = props => {
   // set up state for the likes
   const [likes, setLikes] = useState(props.post.likes);
+  console.log(props);
 
   return (
     <div className="post-border">
@@ -30,7 +31,7 @@ const Post = props => {
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
-        timeStamp={props.post.timeStamp}
+        timeStamp={props.post.timestamp}
       />
     </div>
   );
