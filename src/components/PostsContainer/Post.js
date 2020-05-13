@@ -30,6 +30,7 @@ const Post = props => {
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
+        timeStamp={props.post.timeStamp}
       />
     </div>
   );
