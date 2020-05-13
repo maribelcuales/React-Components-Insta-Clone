@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import CommentInput from "./CommentInput";
 import Comment from "./Comment";
+import TimeStamp from './TimeStamp';
 import "./Comment.css";
 
 const CommentSection = props => {
