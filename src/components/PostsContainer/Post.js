@@ -13,8 +13,8 @@ const Post = props => {
   console.log(props);
 
   const addLikes = () => {
-    setLikes(likes => likes + 1);
-  };
+    setLikes(likes => likes + 1)
+  }
 
   return (
     <div className="post-border">
