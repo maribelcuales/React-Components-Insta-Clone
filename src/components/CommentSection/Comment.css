@@ -32,7 +32,13 @@
 }
 
 .time-stamp{
-  font-size: 10px;
+  font-size: 12px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.like-number{
   margin-left: 5px;
   color: black;
+  font-weight: bold;
 }
